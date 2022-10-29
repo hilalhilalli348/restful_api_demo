@@ -7,7 +7,7 @@ Cari proyekt CRUD əməliyyatların icra ədən sadə restful api-dır ,proyektd
 - userin sistemə sing in olması.
 - userin sistemdə sing up olması.
 - api endpointlər üçün customize exception handling olması ,AOP paradiqması istifadə edilib exceptionlar üçün.
-- spring security tətbiq edilib,authentication üçün /login path-ə POST metodu ilə username password json formatinda gonderilir (JwtAuthenticationFilter),authorization üçün jwt token istifadə edilib ( JwtAuthorizationFilter ) ,hər girişdə və qeydiyyatdan keçəndə jwt generate edilir,access token-nın ömürü 1 gün,refresh token-nın isə 10 gündür.
+- spring security tətbiq edilib,authentication üçün /login path-ə POST metodu ilə username password json formatinda gonderilir (```JwtAuthenticationFilter```),authorization üçün jwt token istifadə edilib ( ```JwtAuthorizationFilter``` ) ,hər girişdə və qeydiyyatdan keçəndə jwt generate edilir,access token-nın ömürü 1 gün,refresh token-nın isə 10 gündür.
 - kiçik swagger dokumentasiyası.
 - database üçün Spring data,hibernate və mysql istifadə edilib.
 - validator olaraq Hibernate Validator istifadə edilib model və dao obyektlər üçün.
