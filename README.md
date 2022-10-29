@@ -11,6 +11,7 @@ Cari proyekt CRUD əməliyyatların icra ədən sadə restful api-dır ,proyektd
 - kiçik swagger dokumentasiyası.
 - database üçün Spring data,hibernate və mysql istifadə edilib.
 - validator olaraq Hibernate Validator istifadə edilib model və dao obyektlər üçün.
+- user sing up olarkən default olaraq ```ROLE_USER``` rolun alır,bu rol admin panelindən lazimi user üçün sonradan deyişdirilə bilər.
 
 ## api endpointlər
 ![image](https://user-images.githubusercontent.com/80002048/198831905-c86c97d7-5aa5-41ad-84ea-110e91abd684.png)
