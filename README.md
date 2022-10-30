@@ -1,4 +1,4 @@
-# demo_restapi
+# demo_restfulapi
 Cari proyekt CRUD əməliyyatların icra ədən sadə restful api-dır ,proyektdə eyni zamanda spring security-də inteqrasiya edilib .
 
 ## proyektdə aşağıdakı imkanlar var 
